@@ -1,0 +1,4 @@
+composer.phar
+.env
+.php_cs.cache
+/vendor/
