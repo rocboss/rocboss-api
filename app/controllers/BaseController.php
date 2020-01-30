@@ -117,7 +117,7 @@ class BaseController
         $str = '';
         foreach ($data as $k => $v) {
             if (is_array($v)) {
-                $v = json_encode($v, JSON_UNESCAPED_UNICODE);
+                $v = json_encode($v, 320);
             }
             $str .= strtolower($k).'='.$v;
         }
